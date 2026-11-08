@@ -1,0 +1,36 @@
+flowchart LR
+    U[Customer Request] --> O[Orchestrator Agent<br/>Routes work and combines worker results]
+
+    O -->|delegate inventory assessment| I[Inventory Agent<br/>Stock availability and reorder needs]
+    O -->|delegate pricing| Q[Quote Agent<br/>Catalog prices, bulk discounts, quote history]
+    O -->|delegate order handling| F[Order Fulfillment Agent<br/>Delivery estimate and confirmed sale]
+    O -->|delegate financial review| C[Finance Agent<br/>Cash, inventory value, total assets]
+
+    I --> IT[list_available_inventory<br/>List stocked items<br/>Uses get_all_inventory]
+    I --> CT[check_inventory<br/>Check one item's stock<br/>Uses get_stock_level]
+    I --> RT[check_reorder_need<br/>Assess requested quantity<br/>Uses get_stock_level]
+
+    Q --> QT[search_historical_quotes<br/>Find comparable prior quotes<br/>Uses search_quote_history]
+    Q --> PRICE[calculate_quote<br/>Price catalog item and apply bulk discount<br/>Uses paper_supplies catalog]
+
+    F --> DT[supplier_lead_time<br/>Estimate delivery date<br/>Uses get_supplier_delivery_date]
+    F --> SALE[finalize_sale<br/>Validate stock and record confirmed sale<br/>Uses get_stock_level and create_transaction]
+
+    C --> CASH[get_cash_balance_tool<br/>Report dated cash balance<br/>Uses get_cash_balance]
+    C --> REPORT[get_financial_report_snapshot<br/>Report cash, inventory value, and assets<br/>Uses generate_financial_report]
+
+    IT --> I
+    CT --> I
+    RT --> I
+    QT --> Q
+    PRICE --> Q
+    DT --> F
+    SALE --> F
+    CASH --> C
+    REPORT --> C
+
+    I -->|inventory findings| O
+    Q -->|quote and history| O
+    F -->|delivery and order status| O
+    C -->|financial snapshot| O
+    O --> R[Customer Response]

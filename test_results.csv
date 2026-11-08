@@ -1,0 +1,92 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,20641.75,29355.0,"Order confirmed. Estimated delivery is April 05, 2025.
+Quoted items:
+- Glossy paper: 200 at $0.20 each; 5% bulk discount; total $38.00.
+- Cardstock: 100 at $0.15 each; 5% bulk discount; total $14.25.
+- Colored paper: 100 at $0.10 each; 5% bulk discount; total $9.50."
+2,2025-04-03,20641.75,29355.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- balloons for the parade: this item or requested size is not listed in the catalog.
+No sale was recorded because the full request did not pass validation."
+3,2025-04-04,20641.75,29355.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- A4 paper: 10000 requested, 2000 available.
+- A3 paper: this item or requested size is not listed in the catalog.
+- printer paper: pricing and stock are tracked per sheet or item, not per reams.
+No sale was recorded because the full request did not pass validation."
+4,2025-04-05,20718.75,29270.0,"Order confirmed. Estimated delivery is April 09, 2025.
+Quoted items:
+- Cardstock: 500 at $0.15 each; 10% bulk discount; total $67.50.
+- Standard copy paper: 250 at $0.04 each; 5% bulk discount; total $9.50."
+5,2025-04-05,20844.5,29135.0,"Order confirmed. Estimated delivery is April 09, 2025.
+Quoted items:
+- Colored paper: 500 at $0.10 each; 10% bulk discount; total $45.00.
+- Cardstock: 300 at $0.15 each; 5% bulk discount; total $42.75.
+- Decorative adhesive tape (washi tape): 200 at $0.20 each; 5% bulk discount; total $38.00."
+6,2025-04-06,20915.9,29058.0,"Order confirmed. Estimated delivery is April 10, 2025.
+Quoted items:
+- Construction paper: 500 at $0.07 each; 10% bulk discount; total $31.50.
+- Standard copy paper: 300 at $0.04 each; 5% bulk discount; total $11.40.
+- Cardstock: 200 at $0.15 each; 5% bulk discount; total $28.50."
+7,2025-04-07,20915.9,29058.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- matte A3 paper: this item or requested size is not listed in the catalog.
+No sale was recorded because the full request did not pass validation."
+8,2025-04-07,20915.9,29058.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- A5 colored paper: this item or requested size is not listed in the catalog.
+- Recycled paper: 3000 requested, 2000 available.
+No sale was recorded because the full request did not pass validation."
+9,2025-04-07,20915.9,29058.0,"I cannot confirm the complete order by April 10, 2025 for these reasons:
+- Standard copy paper: estimated delivery is April 11, 2025, after the requested April 10, 2025 deadline.
+- A3 glossy paper: this item or requested size is not listed in the catalog.
+- 100% recycled kraft paper envelopes: pricing and stock are tracked per sheet or item, not per packets.
+No sale was recorded because the full request did not pass validation."
+13,2025-04-08,20915.9,29058.0,"I cannot confirm the complete order by April 10, 2025 for these reasons:
+- Standard copy paper: estimated delivery is April 12, 2025, after the requested April 10, 2025 deadline.
+- Cardstock: estimated delivery is April 12, 2025, after the requested April 10, 2025 deadline.
+No sale was recorded because the full request did not pass validation."
+12,2025-04-08,20964.300000000003,29006.0,"Order confirmed. Estimated delivery is April 12, 2025.
+Quoted items:
+- Cardstock: 200 at $0.15 each; 5% bulk discount; total $28.50.
+- Standard copy paper: 500 at $0.04 each; 10% bulk discount; total $18.00.
+- Paper napkins: 100 at $0.02 each; 5% bulk discount; total $1.90."
+10,2025-04-08,21097.050000000003,28861.0,"Order confirmed. Estimated delivery is April 12, 2025.
+Quoted items:
+- Glossy paper: 500 at $0.20 each; 10% bulk discount; total $90.00.
+- Cardstock: 300 at $0.15 each; 5% bulk discount; total $42.75."
+11,2025-04-08,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- A3 glossy paper: this item or requested size is not listed in the catalog.
+No sale was recorded because the full request did not pass validation."
+14,2025-04-09,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- A4 paper: 5000 requested, 2000 available.
+- Poster paper: estimated delivery is April 16, 2025, after the requested April 15, 2025 deadline.
+- Cardstock: 500 requested, 400 available.
+No sale was recorded because the full request did not pass validation."
+15,2025-04-12,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- A4 white paper: this item or requested size is not listed in the catalog.
+- A3 colored paper (assorted colors): this item or requested size is not listed in the catalog.
+- cardboard for signage: this item or requested size is not listed in the catalog.
+No sale was recorded because the full request did not pass validation."
+16,2025-04-13,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- Standard copy paper: estimated delivery is April 17, 2025, after the requested April 15, 2025 deadline.
+- Construction paper: estimated delivery is April 17, 2025, after the requested April 15, 2025 deadline.
+No sale was recorded because the full request did not pass validation."
+17,2025-04-14,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- Standard copy paper: 1000 requested, 950 available.
+- A3 colored paper (assorted colors): this item or requested size is not listed in the catalog.
+- Paper napkins: 2000 requested, 1900 available.
+- Paper cups: estimated delivery is April 18, 2025, after the requested April 15, 2025 deadline.
+- Paper plates: estimated delivery is April 18, 2025, after the requested April 15, 2025 deadline.
+No sale was recorded because the full request did not pass validation."
+18,2025-04-14,21097.050000000003,28861.0,"I cannot confirm the complete order by April 15, 2025 for these reasons:
+- Cardstock: 500 requested, 400 available.
+- Standard copy paper: 1000 requested, 950 available.
+- Colored paper: estimated delivery is April 18, 2025, after the requested April 15, 2025 deadline.
+No sale was recorded because the full request did not pass validation."
+19,2025-04-15,21097.050000000003,28861.0,"I cannot confirm the complete order by April 20, 2025 for these reasons:
+- Glossy paper: 2000 requested, 1300 available.
+- A3 matte paper: this item or requested size is not listed in the catalog.
+- Cardstock: 1000 requested, 400 available.
+No sale was recorded because the full request did not pass validation."
+20,2025-04-17,21097.050000000003,28861.0,"I cannot confirm the complete order by May 15, 2025 for these reasons:
+- Flyers: 5000 requested, 2000 available.
+- posters: this item or requested size is not listed in the catalog.
+- tickets: this item or requested size is not listed in the catalog.
+No sale was recorded because the full request did not pass validation."
